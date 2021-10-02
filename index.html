@@ -7,6 +7,7 @@
 	<link rel="icon" href="img/download.png">
 	<meta charset="UTF-8" />
 	<script src="https://kit.fontawesome.com/3d423388d3.js" crossorigin="anonymous"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body onload="myFunction()">
@@ -132,7 +133,7 @@
 				<div></div>
 			</div>
 		</div>
-		<div class="box">
+		<div class="box" data-aos="slide-left">
 			<div class="content">
 				<div class="six">
 					<i class="fas fa-ambulance"></i>
@@ -173,10 +174,10 @@
 			</div>
 		</div>
 		<div class="white">
-			<div class="flower">
+			<div class="flower" data-aos="slide-right">
 				<img src="img/2.jpg" />
 			</div>
-			<div class="five">
+			<div class="five" data-aos="slide-left">
 				<h1>work with our teams</h1>
 				<p>It is a long established fact that a reader will be distracted by the readable content of a page when
 					looking at its layout. The poiwhen looking at its layout. The point of using readable English. Many
@@ -197,7 +198,7 @@
 				<a href="#">GET STARTED</a>
 			</div>
 		</div>
-		<div class="drak">
+		<div class="drak" data-aos="slide-up">
 			<div class="off">
 				<div class="rapicon">
 					<i class="fas fa-users"></i>
@@ -228,31 +229,31 @@
 			</div>
 		</div>
 		<div class="back">
-			<div class="bold">
+			<div class="bold" data-aos="slide-down">
 				<h2>more form us</h2>
 				<hr>
 				<p> Many desktop publishing packagewhen looking at its layout. The point of using readable English.Many
 					desktop publishing packagewhen looking at its layout. The point of using readable English.</p>
 			</div>
-			<div class="back_front">
+			<div class="back_front" data-aos="slide-right">
 				<img src="img/3434349.jpg">
 				<h1>CONSTRUCTION TEAM</h1>
 				<p>Many desktop publishing packagewhen looking at its layout. The point of using readable English.Many
 					desktop publishing packagewhen </p>
 			</div>
-			<div class="back_front">
+			<div class="back_front" data-aos="slide-right">
 				<img src="img/4255578.jpg">
 				<h1>BEST PRODUCTIONS</h1>
 				<p>Many desktop publishing packagewhen looking at its layout. The point of using readable English.Many
 					desktop publishing packagewhen </p>
 			</div>
-			<div class="back_front">
+			<div class="back_front" data-aos="slide-left">
 				<img src="img/civil2.jpg">
 				<h1>BEST DESIGN</h1>
 				<p>Many desktop publishing packagewhen looking at its layout. The point of using readable English.Many
 					desktop publishing packagewhen </p>
 			</div>
-			<div class="back_front front">
+			<div class="back_front front" data-aos="slide-left">
 				<img src="img/civil.jpg">
 				<h1>BEST TEAM WORK</h1>
 				<p>Many desktop publishing packagewhen looking at its layout. The point of using readable English.Many
@@ -309,8 +310,10 @@
 			</div>
 		</div>
 		<div class="worker">
-			<img src="img/track.jpg">
-			<div class="worker_content">
+			<div data-aos="slide-right">
+				<img src="img/track.jpg">
+			</div>
+			<div class="worker_content" data-aos="slide-left">
 				<div class="worker_text">
 					<h2>CHEACK OUT OUR LEATEST IDEA</h2>
 					<p>It was popularised in the 1960 with the release of Letraset sheets containing.</p>
@@ -515,6 +518,12 @@
 		})
 
 
+	</script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 1000
+		});
 	</script>
 </body>
 
